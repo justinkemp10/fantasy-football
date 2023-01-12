@@ -2,6 +2,8 @@
 
 - To inform league players on rules & regulations and other league participants, as well as provide past league statistics, rankings, and results for future reference.
 
+-test
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
