@@ -1,26 +1,155 @@
 import React from "react";
+import "./Members.css";
 
 function currentMembers() {
   return (
     <div className="current-members">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
+      <div class="members-container">
+        <div class="container">
+          <h1 class="members-head">CURRENT MEMBERS</h1>
+        </div>
+          <div class="commissioner-profile">
             <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/300"
               alt=""
             />
+            <h1 class="members-title">Commish</h1>
+            <h2 class="members-name font-weight-light">Name</h2>
+              <p class="commissioner-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Current Members</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+        <div class="members-profile-container">
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
           </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>
+          <div class="member-profile">
+            <img
+              class="profile-img img-fluid rounded-circle mb-4 mb-lg-0"
+              src="https://via.placeholder.com/200"
+              alt=""
+            />
+            <h1 class="members-name font-weight-light">Name</h1>
+              <p class="member-bio">
+                Member bio. Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book.
+              </p>
+          </div>  
         </div>
       </div>
     </div>

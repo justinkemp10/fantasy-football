@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #ff914d;
+    font-weight: 700;
+    font-size: larger;
+    padding: 0px;
+    /* margin: 0px; */
+    border-bottom: 2px solid black;
+}
+
+.nav-item {
+    font-size: x-large;
+}
+
+.navbar-nav {
+    justify-content: space-evenly;
+}

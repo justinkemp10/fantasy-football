@@ -1,0 +1,39 @@
+.members-head {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.members-name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.member-profile {
+    display: inline-block;
+    width: 400px;
+    padding: 30px;
+}
+
+.member-bio {
+    text-align: left;
+    float: left;
+}
+
+.commissioner-bio {
+    text-align: center;
+    width: 500px;
+}
+
+.members-container {
+    text-align: center;
+}
+
+.commissioner-profile {
+    display: inline-block;
+    text-align: center;
+}
+
+.profile-img {
+    border: 1px solid black;
+}

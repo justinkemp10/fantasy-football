@@ -1,13 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Nav.css";
 
 function Navigator() {
   return (
     <div className="navigator">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <nav className="navbar navbar-expand navbar-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            Fantasy Football
+            <img src="../full-logo.png" alt="full-logo" height={220} />
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
@@ -24,12 +25,12 @@ function Navigator() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/currentmembers">
-                  Current Members
+                  Members
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/pastchampions">
-                  Past Champions
+                  Champions
                 </NavLink>
               </li>
             </ul>
