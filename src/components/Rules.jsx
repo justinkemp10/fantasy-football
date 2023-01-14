@@ -3,17 +3,17 @@ import React from "react";
 function Rules() {
   return (
     <div className="rules-regulations">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
+      <div className="container">
+        <div className="row align-items-center my-5">
+          <div className="col-lg-7">
             <img
-              class="img-fluid rounded mb-4 mb-lg-0"
+              className="img-fluid rounded mb-4 mb-lg-0"
               src="https://via.placeholder.com/900x600"
               alt=""
             />
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Rules & Regulations</h1>
+          <div className="col-lg-5">
+            <h1 className="font-weight-light">Rules & Regulations</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
