@@ -12,15 +12,16 @@ class Nav extends Component {
 
   render() {
     //CLOSE NAV MENU ON SCROLL
-    window.onscroll = () => {
-      document.getElementById('navbar').classList.remove('active');
-      // document.getElementById('bar').classList.toggle('clicked');
-    };
+    // window.onscroll = () => {
+    //   document.getElementById('navbar').classList.remove('active');
+    //   document.getElementById('bar').classList.toggle('clicked');
+    // };
 
     //CLOSE NAV MENU ON CLICK
     window.onclick = (event) => {
       if (event.target !== document.getElementById('navbar') && event.target !== document.getElementById('bar')) {
         setTimeout(() => {
+
           document.getElementById('navbar').classList.remove('active');
           // document.getElementById('bar').classList.toggle('clicked');
         }, 300);
